@@ -2,8 +2,10 @@
   margin: 0 auto;
   text-align: center;
   font-size: 18px;
-  background-color: rgb(23, 132, 175);
-  padding: 5px;
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0;
   display: flex;
   justify-content: center;
 }
@@ -22,6 +24,6 @@ img {
 .search-form {
   display: flex;
   justify-content: center;
-  padding: 8px;
+  padding: 15px;
   margin-bottom: 24px;
 }
