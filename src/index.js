@@ -1,4 +1,4 @@
-import './sass/main.scss';
+import './SASS/main.scss';
 'use strict';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import ImagesAPIService from './JS/imageAPIservice';
