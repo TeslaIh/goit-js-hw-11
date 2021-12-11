@@ -22,7 +22,7 @@ export default class ImagesAPIService {
 
     getOptions() {
         const options = new URLSearchParams({
-            keys: `${API_KEY}`,
+            key: `${API_KEY}`,
             q: `${this.searchQuery}`,
             page: `${this.page}`,
             per_page: `${this.PER_PAGE}`,
